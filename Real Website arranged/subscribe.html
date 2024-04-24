@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Subscribe to Our Newsletter</title>
+<style>
+  body { font-family: Arial, sans-serif; }
+  .newsletter { background-color: #f2f2f2; padding: 20px; text-align: center; }
+  .newsletter h1 { color: #333; }
+  .newsletter p { color: #666; }
+  .newsletter form { margin-top: 20px; }
+  .newsletter input[type=email] { padding: 10px; margin-right: 10px; width: 250px; }
+  .newsletter button { padding: 10px 20px; background-color: #00aaff; color: white; border: none; cursor: pointer; }
+
+  a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.pren {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh; /* Set the height of the container */
+}
+.brands{
+  text-align: center;
+  padding: 10px;
+}
+
+</style>
+</head>
+<body>
+    <h1 text align="center">Featured Brands</h1>
+ <div class="brands">
+    <img src="Apple Logo.png" alt="Apple" class="brand-logo" />
+    <img src="simple-icons_hp.png" alt="HP" class="brand-logo" />
+    <img src="simple-icons_dell.png" alt="Dell" class="brand-logo" />
+    <img src="simple-icons_lenovo.png" alt="Lenovo" class="brand-logo" />
+    <img src="logos_samsung.png" alt="Samsung" class="brand-logo" />
+
+  </div>
+
+<div class="newsletter">
+    <h1>Newsletter</h1>
+    <p>Subscribe To Our Newsletter & Get a Bonus For Your Next Purchase</p>
+    <form action="/subscribe" method="post">
+        <input type="email" name="email" placeholder="Enter Your Email Address" required>
+        <button type="submit">Subscribe Now</button>
+    </form>
+</div>
+
+<a href="about.html" class="previous">« Previous</a>
+<a href="contact.html" class="Next">Next »</a>
+</body>
+</html>
